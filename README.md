@@ -4,6 +4,8 @@
 
 ![Pd icon](https://github.com/pure-data/pd-icon/raw/master/masters/icon1024.png)
 
+![Pd file icon](https://github.com/pure-data/pd-icon/raw/master/pd-file.png)
+
 This is a small repo for the Pure Data icon.
 
 Dan Wilcox [danomatika.com](http://danomatika.com) 2017
