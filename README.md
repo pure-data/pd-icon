@@ -30,6 +30,7 @@ The master files are:
 * masters/icon.svg: exported SVG from Inkscape
 * masters/icon2014.png: exported PNG from Inkscape
 * masters/patch: source Pd patches
+* masters/*_svgplugin_*: similar files to the above, except exported via the svgplugin on deken
 
 If you want to generate icons with your own design, create a 1024x1024 PNG and either replace the master/icon2014.png file or edit the Makefile to use yours. Then run `make`.
 

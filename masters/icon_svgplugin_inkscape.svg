@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   height="54"
+   width="54"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icon_svgplugin_inkscape.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1069"
+     inkscape:window-height="613"
+     id="namedview14"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="false"
+     inkscape:zoom="8.5429864"
+     inkscape:cx="31.461313"
+     inkscape:cy="28.04661"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata17">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs15" />
+  <text
+     style="font-size:10px;font-family:Monaco;fill:#000000;stroke-width:0"
+     id="7fb48d028a00LABEL label text"
+     y="19"
+     x="17.5" />
+  <rect
+     style="fill:#00fc04;stroke:#000000;stroke-width:1"
+     id="7fb48d028a00BASE"
+     height="15"
+     width="15"
+     y="4.5"
+     x="5" />
+  <circle
+     style="fill:#00fc04;stroke:#000000;stroke-width:1"
+     id="7fb48d028a00BUT"
+     cy="12"
+     cx="12.5"
+     r="6.5" />
+  <polyline
+     style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-linejoin:miter;fill-opacity:1"
+     id=".x7fb48cd26890.t7fb48cc1a7d0R obj"
+     points="104.0 99.0 148.0 99.0 148.0 124.0 104.0 124.0 104.0 99.0"
+     transform="translate(-99,-74.5)" />
+  <rect
+     style="fill:#000000;stroke:#000000;stroke-width:1"
+     id=".x7fb48cd26890.t7fb48cc1a7d0i0 inlet"
+     height="2"
+     width="7"
+     y="-26.5"
+     x="5"
+     transform="scale(1,-1)" />
+  <rect
+     style="fill:#000000;stroke:#000000;stroke-width:1"
+     id=".x7fb48cd26890.t7fb48cc1a7d0i1 inlet"
+     height="2"
+     width="7"
+     y="24.5"
+     x="42" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17px;line-height:125%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0"
+     id=".x7fb48cd26890.t7fb48cc1a7d0 obj text"
+     y="43.5"
+     x="7"
+     sodipodi:linespacing="125%">Pd</text>
+  <polyline
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round"
+     id="l7fb48cc19700 cord"
+     points="107.0 94.0 107.0 99.0"
+     transform="translate(-99,-74.5)" />
+  <rect
+     transform="scale(1,-1)"
+     x="4.9799166"
+     y="-49.413216"
+     width="7"
+     height="2"
+     id="rect4160"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+</svg>

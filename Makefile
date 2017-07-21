@@ -5,7 +5,8 @@
 UNAME = $(shell uname)
 
 NAME=pd
-SRC_PNG=masters/icon1024.png
+#SRC_PNG=masters/icon1024.png
+SRC_PNG=masters/icon1024_svgplugin.png
 SRC_PNG_FILE=masters/GenericDocumentIcon.png
 
 ICO=$(NAME).ico
