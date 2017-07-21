@@ -2,6 +2,8 @@
 
 **Prelim: Up for Review**
 
+![Pd icon](https://github.com/pure-data/pd-icon/raw/master/masters/icon1024.png)
+
 This is a small repo for the Pure Data icon.
 
 The makefile uses a master 1024x1025 file as a source for:
