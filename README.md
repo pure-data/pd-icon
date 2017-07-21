@@ -30,3 +30,23 @@ The master files are:
 * masters/icon.svg: exported SVG from Inkscape
 * masters/icon2014.png: exported PNG from Inkscape
 * masters/patch: source Pd patches
+
+If you want to generate icons with your own design, create a 1024x1024 PNG and either replace the master/icon2014.png file or edit the Makefile to use yours. Then run `make`.
+
+If you want to try these out with your own copy of Pd:
+
+macOS: 
+
+  * Close Pd if it is running
+  * Right-click on the Pd .app & choose "Show Package Contents"
+  * Navigate to Contents/Resources
+  * Rename and/or replace the existing .icns files with the new ones
+  * Start the Pd .app
+
+Windows:
+  
+  * Close Pd if it is running
+  * Rename and/or replace the existing .ico file in the Pd install folder
+  * Start Pd
+
+Linux: ?
