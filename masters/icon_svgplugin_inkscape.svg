@@ -12,7 +12,10 @@
    height="54"
    width="54"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="icon_svgplugin_inkscape.svg">
+   sodipodi:docname="icon_svgplugin_inkscape.svg"
+   inkscape:export-filename="/Users/dano/src/pd/pd-icon/masters/icon_svgplugin_inkscape.png"
+   inkscape:export-xdpi="1706.6666"
+   inkscape:export-ydpi="1706.6666">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -32,9 +35,9 @@
      fit-margin-bottom="0"
      showguides="false"
      inkscape:zoom="8.5429864"
-     inkscape:cx="31.461313"
-     inkscape:cy="28.04661"
-     inkscape:window-x="0"
+     inkscape:cx="22.272489"
+     inkscape:cy="21.914989"
+     inkscape:window-x="36"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
@@ -46,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -95,7 +98,11 @@
      id=".x7fb48cd26890.t7fb48cc1a7d0 obj text"
      y="43.5"
      x="7"
-     sodipodi:linespacing="125%">Pd</text>
+     sodipodi:linespacing="125%">
+    <tspan
+       style="-inkscape-font-specification:'DejaVu Sans Mono, Bold';font-family:'DejaVu Sans Mono';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:17.00000048px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       id="tspan4141">Pd</tspan>
+  </text>
   <polyline
      style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round"
      id="l7fb48cc19700 cord"
