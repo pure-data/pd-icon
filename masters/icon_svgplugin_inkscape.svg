@@ -13,7 +13,7 @@
    width="54"
    inkscape:version="0.91 r13725"
    sodipodi:docname="icon_svgplugin_inkscape.svg"
-   inkscape:export-filename="/Users/dano/src/pd/pd-icon/masters/icon_svgplugin_inkscape.png"
+   inkscape:export-filename="/Users/dano/src/pd/pd-icon/masters/icon1024_svgplugin.png"
    inkscape:export-xdpi="1706.6666"
    inkscape:export-ydpi="1706.6666">
   <sodipodi:namedview
@@ -34,9 +34,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      showguides="false"
-     inkscape:zoom="8.5429864"
-     inkscape:cx="22.272489"
-     inkscape:cy="21.914989"
+     inkscape:zoom="6.0408036"
+     inkscape:cx="19.028222"
+     inkscape:cy="32.048277"
      inkscape:window-x="36"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -81,9 +81,9 @@
   <rect
      style="fill:#000000;stroke:#000000;stroke-width:1"
      id=".x7fb48cd26890.t7fb48cc1a7d0i0 inlet"
-     height="2"
-     width="7"
-     y="-26.5"
+     height="2.0000002"
+     width="6.9999995"
+     y="-26.499998"
      x="5"
      transform="scale(1,-1)" />
   <rect
@@ -110,10 +110,10 @@
      transform="translate(-99,-74.5)" />
   <rect
      transform="scale(1,-1)"
-     x="4.9799166"
-     y="-49.413216"
-     width="7"
-     height="2"
+     x="4.9994569"
+     y="-49.413757"
+     width="6.9810028"
+     height="2.0010867"
      id="rect4160"
-     style="fill:#000000;stroke:#000000;stroke-width:1" />
+     style="fill:#000000;stroke:#000000;stroke-width:0.99891341" />
 </svg>
