@@ -19,6 +19,7 @@ ICNS_FILE=$(NAME)-file.icns
 ICONSET_FILE=$(NAME)-file.iconset
 
 GIF=$(NAME).gif
+XPM=$(NAME).xpm
 
 .PHONY: clean
 
@@ -80,7 +81,12 @@ endif
 
 # gif for loading via Tk on Linux, etc
 $(GIF): $(SRC_PNG)
-	convert $(SRC_PNG) -resize 256 $(GIF)
+	convert $(SRC_PNG) -filter box -resize 512 $(GIF)
+
+# xpm for X11 on Linux
+# this get's it close enough to be adjusted by hand
+$(XPM): $(SRC_PNG)
+	convert $(SRC_PNG) -filter box -resize 32 $(XPM)
 
 clean:
 	rm -f $(ICO) $(FILE) $(ICNS) $(ICONSET) $(GIF)
