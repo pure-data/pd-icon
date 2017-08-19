@@ -2,7 +2,7 @@
 
 **Prelim: Up for Review**
 
-![Pd icon](https://github.com/pure-data/pd-icon/raw/master/masters/icon1024.png)
+![Pd icon](https://github.com/pure-data/pd-icon/raw/master/masters/icon1024_svgplugin.png)
 
 ![Pd file icon](https://github.com/pure-data/pd-icon/raw/master/pd-file.png)
 
