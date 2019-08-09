@@ -1,12 +1,10 @@
 # Pure Data icon
 
-**Prelim: Up for Review**
-
 ![Pd icon](https://github.com/pure-data/pd-icon/raw/master/masters/icon1024_svgplugin.png)
 
 ![Pd file icon](https://github.com/pure-data/pd-icon/raw/master/pd-file.png)
 
-This is a small repo for the Pure Data icon.
+This is a small repo for the Pure Data icon, in use as of Pd 0.49.
 
 Dan Wilcox [danomatika.com](http://danomatika.com) 2017
 
@@ -55,4 +53,3 @@ Linux: ? (Depends on desktop environment)
 Additionally, you generate a set of pd-#.png at different resolutions directly from the source svg file using Inkscape:
 
     make inkscape
-
