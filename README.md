@@ -50,4 +50,9 @@ Windows:
   * Rename and/or replace the existing .ico file in the Pd install folder
   * Start Pd
 
-Linux: ?
+Linux: ? (Depends on desktop environment)
+
+Additionally, you generate a set of pd-#.png at different resolutions directly from the source svg file using Inkscape:
+
+    make inkscape
+

@@ -8,6 +8,7 @@ NAME=pd
 #SRC_PNG=masters/icon1024.png
 SRC_PNG=masters/icon1024_svgplugin.png
 SRC_PNG_FILE=masters/GenericDocumentIcon.png
+SRC_SVG=masters/icon_svgplugin.svg
 
 ICO=$(NAME).ico
 
@@ -88,5 +89,11 @@ $(GIF): $(SRC_PNG)
 $(XPM): $(SRC_PNG)
 	convert $(SRC_PNG) -filter box -resize 32 $(XPM)
 
+# generate pngs from SVG directly using inkscape
+inkscape:
+	for _res in {16,32,48,64,96,128,256,512,1024} ; do \
+		inkscape -z -e pd-$${_res} -w $${_res} -h $${_res} $(SRC_SVG) ; \
+	done
+
 clean:
-	rm -f $(ICO) $(FILE) $(ICNS) $(ICONSET) $(GIF)
+	rm -f $(ICO) $(FILE) $(ICNS) $(ICONSET) $(GIF) pd-*.png
