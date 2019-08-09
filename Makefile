@@ -8,7 +8,7 @@ NAME=pd
 #SRC_PNG=masters/icon1024.png
 SRC_PNG=masters/icon1024_svgplugin.png
 SRC_PNG_FILE=masters/GenericDocumentIcon.png
-SRC_SVG=masters/icon_svgplugin.svg
+SRC_SVG=masters/icon_svgplugin_inkscape.svg
 
 ICO=$(NAME).ico
 
