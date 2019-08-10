@@ -5,10 +5,9 @@
 UNAME = $(shell uname)
 
 NAME=pd
-#SRC_PNG=masters/icon1024.png
-SRC_PNG=masters/icon1024_svgplugin.png
+SRC_PNG=masters/icon1024.png
 SRC_PNG_FILE=masters/GenericDocumentIcon.png
-SRC_SVG=masters/icon_svgplugin_inkscape.svg
+SRC_SVG=masters/icon.svg
 
 ICO=$(NAME).ico
 
@@ -91,9 +90,9 @@ $(XPM): $(SRC_PNG)
 
 # generate pngs from SVG directly using inkscape
 inkscape:
-	for _res in {16,32,48,64,96,128,256,512,1024} ; do \
+	for _res in {16,32,48,64,96,128,256,512} ; do \
 		inkscape -z -e pd-$${_res} -w $${_res} -h $${_res} $(SRC_SVG) ; \
 	done
 
 clean:
-	rm -f $(ICO) $(FILE) $(ICNS) $(ICONSET) $(GIF) pd-*.png
+	rm -f $(ICO) $(FILE) $(ICNS) $(ICONSET) $(GIF) $(XPM) pd-*.png
