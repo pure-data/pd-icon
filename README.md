@@ -6,7 +6,8 @@
 
 This is a small repo for the (revamped) Pure Data icon in use as of Pd 0.49. It is essentially a higher-quality version of the previous Pure Data icon tweaked with sizing and positioning from the Pd-extended icon. It also reflects the default font used by Pd's patch canvas, DejaVu Sans Mono.
 
-Dan Wilcox [danomatika.com](http://danomatika.com) 2017
+Dan Wilcox [danomatika.com](http://danomatika.com) 2017  
+Standard Improved BSD License
 
 Contents
 --------
