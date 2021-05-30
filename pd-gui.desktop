@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=/usr/local/bin/pd-gui
+MimeType=text/x-puredata;
+Name=pd-gui
+NoDisplay=true
+Type=Application
+Terminal=false
+Icon=puredata
