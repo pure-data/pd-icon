@@ -1,5 +1,6 @@
 #
 # Dan Wilcox <danomatika@gmail.com> 2017
+# Max Neupert 2021
 # 
 
 UNAME = $(shell uname)
@@ -93,6 +94,11 @@ inkscape:
 	for _res in 16 32 48 64 96 128 256 512 ; do \
 		 inkscape --export-type="png" --export-filename=pd-$${_res}.png --export-width $${_res} --export-height $${_res} $(SRC_SVG) ; \
 	done
+
+# register icon for Pd mimetype (adapted from https://stackoverflow.com/a/31836/1964109 )
+mime-register:
+	xdg-icon-resource install --context mimetypes --size 512 pd-512.png x-puredata
+	xdg-mime install x-puredata.xml 
 
 clean:
 	rm -f $(ICO) $(FILE) $(ICNS) $(ICONSET) $(GIF) $(XPM) pd-*.png

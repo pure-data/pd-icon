@@ -49,6 +49,14 @@ Additionally, you can generate a set of pd-#.png at different resolutions direct
 
 For the default font to render, you will need DejaVu Sans Mono installed.
 
+Linux icon install
+------------------
+
+To register and install the mimetype type:
+
+    make mime-register
+
+
 Testing and Updated Icon in Pd
 ------------------------------
 
