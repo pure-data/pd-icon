@@ -90,18 +90,9 @@ $(XPM): $(SRC_PNG)
 
 # generate pngs from SVG directly using inkscape
 inkscape:
-#	for _res in {16,32,48,64,96,128,256,512} ; do \
-#		inkscape --export-type="png" --export-filename=pd-$${_res}.png --export-width $${_res} --export-height $${_res} $(SRC_SVG) ; \
-#	done
-
-	inkscape --export-type="png" --export-filename=pd-16.png --export-width 16 --export-height 16 $(SRC_SVG) ;
-	inkscape --export-type="png" --export-filename=pd-32.png --export-width 32 --export-height 32 $(SRC_SVG) ;
-	inkscape --export-type="png" --export-filename=pd-48.png --export-width 48 --export-height 48 $(SRC_SVG) ;
-	inkscape --export-type="png" --export-filename=pd-64.png --export-width 64 --export-height 64 $(SRC_SVG) ;
-	inkscape --export-type="png" --export-filename=pd-96.png --export-width 96 --export-height 96 $(SRC_SVG) ;
-	inkscape --export-type="png" --export-filename=pd-128.png --export-width 128 --export-height 128 $(SRC_SVG) ;
-	inkscape --export-type="png" --export-filename=pd-256.png --export-width 256 --export-height 256 $(SRC_SVG) ;
-	inkscape --export-type="png" --export-filename=pd-512.png --export-width 512 --export-height 512 $(SRC_SVG) ;
+	for _res in 16 32 48 64 96 128 256 512 ; do \
+		 inkscape --export-type="png" --export-filename=pd-$${_res}.png --export-width $${_res} --export-height $${_res} $(SRC_SVG) ; \
+	done
 
 clean:
 	rm -f $(ICO) $(FILE) $(ICNS) $(ICONSET) $(GIF) $(XPM) pd-*.png
