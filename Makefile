@@ -90,8 +90,8 @@ $(XPM): $(SRC_PNG)
 
 # generate pngs from SVG directly using inkscape
 inkscape:
-	for _res in {16,32,48,64,96,128,256,512} ; do \
-		inkscape -z -e pd-$${_res} -w $${_res} -h $${_res} $(SRC_SVG) ; \
+	for _res in 16 32 48 64 96 128 256 512 ; do \
+		 inkscape --export-type="png" --export-filename=pd-$${_res}.png --export-width $${_res} --export-height $${_res} $(SRC_SVG) ; \
 	done
 
 clean:
