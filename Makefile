@@ -99,7 +99,7 @@ inkscape:
 mime-register:
 	xdg-icon-resource install --context mimetypes --size 512 pd-512.png x-puredata
 	xdg-mime install x-puredata.xml
-	cp pd-gui.desktop ~/.local/share/applications.pd-gui.desktop
+	cp pd-gui.desktop ~/.local/share/applications/pd-gui.desktop
 
 clean:
 	rm -f $(ICO) $(FILE) $(ICNS) $(ICONSET) $(GIF) $(XPM) pd-*.png
