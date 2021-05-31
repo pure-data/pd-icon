@@ -100,6 +100,12 @@ mime-register:
 	xdg-icon-resource install --context mimetypes --size 512 pd-512.png x-puredata
 	xdg-mime install x-puredata.xml
 	cp pd-gui.desktop ~/.local/share/applications/pd-gui.desktop
+# 	following https://hoppenheit.info/blog/2016/where-to-put-application-icons-on-linux/
+
+install:
+	cp tweaked/pd.xpm /usr/share/pixmaps/puredata.xpm
+	cp pd-48.png /usr/share/icons/hicolor/48x48/apps/puredata.png
+	cp masters/icon.svg /usr/share/icons/hicolor/scalable/apps/puredata.svg
 
 clean:
 	rm -f $(ICO) $(FILE) $(ICNS) $(ICONSET) $(GIF) $(XPM) pd-*.png
