@@ -1,5 +1,3 @@
- <!-- Original by Albert Graef: https://github.com/pd-l2ork/pd/blob/master/debuild/debian/sharedmimeinfo -->
-
 <?xml version="1.0" encoding="UTF-8"?>
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
   <mime-type type="text/x-puredata">
